@@ -6,7 +6,7 @@
     <title>Q4 Practice 3</title>
 </head>
 <body>
-    <h2>JavaScript For Loop</h2>
+<h2>JavaScript For Loop</h2>
 
 <p id="sample"></p>
 
@@ -18,6 +18,37 @@ for (let x = 0; x < 3; x++) {
 }
 
 document.getElementById("sample").innerHTML = Sample1;
+</script>
+
+    <h2>JavaScript While Loop</h2>
+
+<p id="sample"></p>
+
+<script>
+let Sample2= "";
+let y = 0;
+while (y < 5) {
+
+  Sample2 += "<br>The number is " + y;
+  y++;
+}
+document.getElementById("sample").innerHTML = Sample2;
+</script>
+<h2>JavaScript do-While Loop</h2>
+
+<p id="sample3"></p>
+
+<script>
+let Sample3 = "";
+let z = 0;
+
+do {
+  Sample3 += "<br>The number is " + z;
+  z++;
+}
+while (z < 5);  
+
+document.getElementById("sample3").innerHTML = Sample3;
 </script>
     
 </body>
